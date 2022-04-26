@@ -1,0 +1,19 @@
+CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, stock INTEGER, color INTEGER, aisle INTEGER, rating INTEGER);
+INSERT INTO inventory VALUES (1, "mascara", 12, "black", 2, 4);
+INSERT INTO inventory VALUES (2, "mascara", 10, "brown", 2, 4);
+INSERT INTO inventory VALUES (3, "lipstick", 7, "red", 1, 4);
+INSERT INTO inventory VALUES (4, "lipstick", 8, "pink", 1, 5);
+INSERT INTO inventory VALUES (5, "lip gloss", 5, "rose", 1, 4);
+INSERT INTO inventory VALUES (6, "blush", 6, "mauve", 2, 5);
+INSERT INTO inventory VALUES (7, "blush", 11, "sunset", 2, 5);
+INSERT INTO inventory VALUES (8, "eyeliner", 15, "black", 2, 4);
+INSERT INTO inventory VALUES (9, "eyeliner", 13, "brown", 2, 5);
+INSERT INTO inventory VALUES (10, "eyeliner", 10, "blue", 2, 4);
+INSERT INTO inventory VALUES (11, "foundation", 8, "natural", 1, 4);
+INSERT INTO inventory VALUES (12, "foundation", 6, "ivory", 1, 4);
+INSERT INTO inventory VALUES (13, "foundation", 9, "nude", 1, 5);
+INSERT INTO inventory VALUES (14, "concealer", 12, "beige", 1, 4);
+INSERT INTO inventory VALUES (15, "concealer", 11, "ivory", 1, 5);
+SELECT * FROM inventory WHERE rating < 5 ORDER BY stock;
+SELECT * FROM inventory ORDER BY aisle;
+SELECT * SUM(stock) FROM inventory GROUP BY aisle
