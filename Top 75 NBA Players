@@ -1,0 +1,109 @@
+CREATE TABLE players(
+    Player  TEXT,
+    Team    TEXT,
+    Position TEXT,
+    Height  INTEGER,
+    Draft_Year  INTEGER,
+    Career_Points   INTEGER,
+    Field_Goal_Percentage   INTEGER,
+    Rebounds_Per_Game   INTEGER,
+    Blocks_Per_Game INTEGER,
+    Three_Point_FG_Percentage   INTEGER,
+    Assists_Per_Game    INTEGER,
+    Points_Per_Game INTEGER,
+    Free_Throw_Percentage    INTEGER,
+    Steals_Per_Game INTEGER,
+    Pre_Draft_Team  TEXT,
+    Last_Season     INTEGER
+    
+    );
+    
+INSERT INTO players VALUES ('Michael Jordan', 'Chicago Bulls', 'Shooting Guard', '6ft6in' , 1984, 32392, .497, 6.2, .8, .327, 5.3, 30.1, .835, 2.3, 'North Carolina', 2003);
+INSERT INTO players VALUES ('LeBron James', 'LA Lakers', 'Power Forward', '6ft9in', 2003, 37062, .505, 7.5, .8, .346, 7.4, 27.1, .734, 1.6, 'St.Vincent St.Mary', 'Present');
+INSERT INTO players VALUES ('Kareem Abdul-Jabaar', 'LA Lakers', 'Center', '7ft2in', 1969, 38387, .559, 11.2, 2.6, .056, 3.6, 24.6, .721, .9, 'UCLA', 1989);
+INSERT INTO players VALUES ('Bill Russell', 'Boston Celtics', 'Center', '6ft10in', 1956, 14522, .440, 22.5, NULL, NULL, 4.3, 15.1, .561, NULL, 'USF', 1969);
+INSERT INTO players VALUES ('Magic Johnson', 'LA Lakers', 'Point Guard', '6ft9in', 1999, 17707, .520, 7.2, 0.4, .303, 11.2, 19.5, .848, 1.9, 'Michigan State', 2000);
+INSERT INTO players VALUES ('Wilt Chamberlain', 'LA Lakers', 'Center', '7ft1in', 1959, 31419, .540, 22.9, NULL, NULL, 4.4, 30.1, .511, NULL, 'harlem Globetrotters', 1973);
+INSERT INTO players VALUES ('Larry Bird', 'Boston Celtics', 'Power Forward', '6ft9in', 1978, 21791, .496, 10, 0.8, .376, 6.3, 24.3, .886, 1.7, 'Indiana State', 1992);
+INSERT INTO players VALUES ('Shaqueille ONeal', 'Boston Celtics', 'Center', '7ft1in', 1992, 28596, .582, 10.9, 2.3, .045, 2.5, 23.7, .527, .6, 'LSU', 2011);
+INSERT INTO players VALUES ('Tim Duncan', 'San Antonio Spurs', 'Power Forward', '6ft11in', 1997, 26496, .506, 10.8, 2.2, .179, 3.0, 19.0, .696, .7, 'Wake Forest', 2016);
+INSERT INTO players VALUES ('Kobe Braynt', 'LA Lakers', 'Shooting Guard', '6ft6in', 1996, 33643, .447, 5.2, .5, .329, 4.7, 25.0, .837, 1.4, 'Lower Merion', 2016);
+INSERT INTO players VALUES ('Hakeem Olajuwon', 'Toronto Raptors', 'Center', '7ft0in', 1984, 26946, .512, 11.1, 3.1, .202, 2.5, 21.8, .712, 1.7, 'Houston', 2002);
+INSERT INTO players VALUES ('Oscar Robinson', 'Milwaukee Bucks', 'Point Guard', '6ft5in', 1960, 26710, .438, 4.0, NULL, NULL, 6.4, 12.7, .835, NULL, 'Cincinnati', 1974);
+INSERT INTO players VALUES ('Kevin Durant', 'Brooklyn Nets', 'Forward', '6ft10in', 2007, 25526, .496, 7.1, 1.1, .384, 4.3, 27.2, .884, 1.1, 'Texas', 'Present');
+INSERT INTO players VALUES ('Jerry West', 'LA Lakers', 'Point Guard', '6ft3in', 1960, 25192, .474, 5.8, .7, NULL,     6.7, 27, .814, 2.6, 'West Virginia', 1974);
+INSERT INTO players VALUES ('Stephen Curry', 'Golden State Warriors', 'Point Guard', '6ft2in', 2009, 20064, .473, 4.6, .2, .428, 6.5, 24.3, .908, 1.7, 'Davidson', 'Present');
+INSERT INTO players VALUES ('Karl Malone', 'LA Lakers', 'Power Forward', '6ft9in', 1985, 36928, .516, 10.1, .8, .274, 3.6, 25.0, .742, 1.4, 'Louisiana Tech', 2004);
+INSERT INTO players VALUES ('Kevin Garnett', 'Minnesota Timberwolves', 'Power Forward', '6ft11in', 1995, 26071, .497, 10.0, 1.4, .275, 3.7, 17.8, .789, 1.3, 'Farragut Academy', 2016);
+INSERT INTO players VALUES ('Moses Malone', 'San Antonio Spurs', 'Center', '6ft10in', 1974, 29580, .371, 2.7, .2, .500, .4, 2.9, .688, .1, 'Petersburg', 1995);
+INSERT INTO players VALUES ('Julius Erving', 'Philidelphia 76ers', 'Small Forward', '6ft7in', 1972, 30026, .506, 8.5, 1.7, .298, 4.2, 24.2, .777, 2.0, 'UMass', 1987);
+INSERT INTO players VALUES ('David Robinson', 'San Antonio Spurs', ' Center', '7ft1in', 1987, 20790, .598, 10.6, 3.0, .250, 2.5, 21.1, .736, 1.4, 'Navy', 2003);
+INSERT INTO players VALUES ('Dirk Nowitzki', 'Dallas Mavericks', 'Power Forward', '7ft0in', 1998, 31560, .471, 7.5, .8, .380, 2.4, 20.7, .879, .8, 'Second Bundesliga', 2019);
+INSERT INTO players VALUES ('Charles Barkley', 'Houston Rockets', 'Forward', '6ft5in', 1984, 23757, .541, 11.7, .8, .266, 3.9, 22.1, .735, 1.5, 'Auburn', 2000);
+INSERT INTO players VALUES ('Elgin Baylor', 'New Orleans Jazz', 'Small Forward', '6ft5in', 1958, 23149, .431, 13.5, NULL, NULL, 4.3, 27.4, .780, NULL, 'Seatlle', 1979);
+INSERT INTO players VALUES ('Giannis Antetokounmpo', 'Milwaukee Bucks', 'Power Forward', '6ft11in', 2013, 14321, .535, 9.4, 1.3, .288, 4.6, 21.8, .718, 1.2, 'Filathlitikos', 'Present');
+INSERT INTO players VALUES ('John Stockton', 'Utha Jazz', 'Point Guard', '6ft1in', 1984, 19711, .515, 2.7, .2, .384, 10.5, 13.1, .826, 2.2, 'Gonzaga', 2003);
+INSERT INTO players VALUES ('Isiah Thomas', 'Detroit Pistons', 'Point Guard', '6ft1in', 1981, 18822, .452, 3.6, .3, .290, 9.3, 19.2, .759, 1.9, 'Indiana', 1994);
+INSERT INTO players VALUES ('Rick Barry', 'Houston Rockets', 'Small Forward', '6ft7in', 1965, 25279, .449, 6.5, .5, .330, 5.1, 23.2, .900, 2.0, 'Miami', 1980);
+INSERT INTO players VALUES ('Dwyane Wade', 'Miami Heat', 'Shooting Guard', '6ft4in', 2003, 23165, .480, 4.7, .8, .293, 5.4, 22.0, .765, 1.5, 'Marquette', 2019);
+INSERT INTO players VALUES ('John Havlicek', 'Boston Celtics', 'Small Forward', '6ft5in', 1962, 26395, .439, 6.3, .3, NULL, 4.8, 20.8, .815, 1.2, 'Ohio State', 1978);
+INSERT INTO players VALUES ('Chris Paul', 'Phoenix Suns', 'Point Guard', '6ft0in', 2005, 20936, .473, 4.5, .1, .369, 9.5, 18.1, .871, 2.1, 'Wake Forest', 'Present');
+INSERT INTO players VALUES ('Bob Pettit', 'Milwaukee', 'Power Forward', '6ft9in', 1954, 20880, .436, 16.2, NULL, NULL, 3.0, 26.4, .761, NULL, 'LSU', 1965);
+INSERT INTO players VALUES ('Scottie Peppen', 'Sundsvall Dragons', 'Small Forward', '6ft8in', 1987, 18940, .473, 6.4, .8, .326, 5.2, 16.1, .704, 2.0, 'Central Arkansas', 2008);
+INSERT INTO players VALUES ('James Harden', 'Philidelphia 76ers', 'Shooting Guard', '6ft5in', 2009, 23477, .442, 5.6, .5, .361, 6.8, 24.9, .860, 1.5, 'Arizona State', 'Present');
+INSERT INTO players VALUES ('Kawhi Leonard', 'Los Angeles Clippers', 'Small Forward', '6ft7in', 2011, 11085, .493, 6.4, .6, .384, 2.9, 19.2, .858, 1.8, 'San Diego State', 'Present');
+INSERT INTO players VALUES ('George Mikan', 'Minneapolis Lakers', 'Center', '6ft10in', 1946, 21920, .404, 13.4, NULL, NULL, 2.8, 23.1, .782, NULL, 'DePaul', 1954);
+INSERT INTO players VALUES ('Jason Kiss', 'New York Knicks', 'Point Guard','6ft4in', 1994, 17529, .400, 6.3, .3, .349, 8.7, 12.6, .785, 1.9, 'California', 2013);
+INSERT INTO players VALUES ('Patrick Ewing', 'Orlando Magic', 'Center', '7ft0in', 1985, 24815, .504, 9.8, 2.5, .152, 1.9, 21.0, .740, 1.0, 'Georgetown', 2002);
+INSERT INTO players VALUES ('Steve Nash', 'LA Lakers', ' Point Guard', '6ft3in', 1996, 17387, .490, 3.0, .1, .428, 8.5, 14.3, .904, .7, 'Santa Clara', 2015);
+INSERT INTO players VALUES ('Bob Cousy', 'Cincinnati Royals', 'Point Guard', '6ft1in', 1950, 16460, .375, 5.2, NULL, NULL, 7.5, 18.4, .803, NULL, 'Holy Cross', 1970);
+INSERT INTO players VALUES ('Allen Iverson', 'Philidelphia 76ers', 'Guard', '6ft0in', 1996, 24368, .425, 3.7, .2, .313, 6.2, 26.7, .780, 2.2, 'Georgetown', 2010);
+INSERT INTO players VALUES ('Elvin Hayes', 'Houston Rockets', 'power Forward', '6ft9in', 1968, 27313, .452, 12.5, 2.0, .1247, 1.8, 21.0, .670, 1.0, 'Houston', 1984);
+INSERT INTO players VALUES ('George Gervin', 'TDK Manresa', 'Shooting Guard','6ft7in', 1974, 26595, .511, 4.6, 0.8, .297, 2.8, 26.2, .844, 1.2, 'Eastern Michigan', 1990);
+INSERT INTO players VALUES ('Clyde Drexler', 'Houston Rockets', 'Shooting Guard', '6ft7in', 1983, 22195, .472, 6.1, .7, .318, 5.6, 20.4, .788, 2.0, 'Houston', 1998);
+INSERT INTO players VALUES ('Willis Reed', 'New York KNicks', 'Center', '6ft10in', 1964, 12183, .476, 12.9, 1.1, NULL, 1.8, 18.7, .747, .6, 'Grambling State', 1974);
+INSERT INTO players VALUES ('Walt Frazier', 'Cleveland Cavaliers', 'Point Guard', '6ft4in', 1967, 15581, .490, 5.9, .2, .000, 6.1, 18.9, .786, 1.9, 'Southern Illinois', 1979);
+INSERT INTO players VALUES ('Russell Westbrook', 'LA Lakers', 'Point Guard', '6ft3in', 2008, 23398, .438, 7.4, .3, .305, 8.4, 22.8, .783, 1.7, 'UCLA', 'Present');
+INSERT INTO players VALUES ('Reggie Millers', 'Indiana Pacers', 'Shooting Guard', '6ft7in', 1987, 25279, .471, 3.0, .2, .395, 3.0, 18.2, .888, 1.1, 'UCLA', 2005);
+INSERT INTO players VALUES ('Gary Payton', 'Miami Heat', 'Point Guard', '6ft4in', 1990, 21813, .466, 3.9, .2, .317, 6.7, 16.3, .729, 1.8, 'Oregon State', 2007);
+INSERT INTO players VALUES ('Kevin McHale', 'Houston Rockets', 'Power Forward', '6ft10in', 1980, 17335, .554, 7.3, 1.7, .261, 1.7, 17.9, .798, 0.4, 'Minnesota', 2015);
+INSERT INTO players VALUES ('Paul Pierce', 'Los Angeles CLippers', 'Small Forward', '6ft7in', 1998, 26397, .445, 5.6, .6, .368, 3.5, 19.7, .806, 1.3, 'Kansas', 2017);
+INSERT INTO players VALUES ('Dominique Wilkins', 'Orlando Magic', 'Small Forward', '6ft8in', 1982, 26668, .461, 6.7, .6, .319, 2.5, 24.8, .811, 1.3, 'Georgia', 1999);
+INSERT INTO players VALUES ('Ray Allen', 'Miami Heat', 'Shooting Guard', '6ft5in', 1996, 24505, .452, 4.1, .2, .400, 3.4, 18.9, .894, 1.1, 'UConn', 2014); 
+INSERT INTO players VALUES ('Anthony Davis', 'LA Lakers', 'Power Forward', '6ft10in', 2012, 14290, .515, 10.2, 2.3, .303, 2.3, 23.8, .794, 1.4, 'Kentucky', 'Present');
+INSERT INTO players VALUES ('Bob McAdoo', 'Philidelhpia 76ers', 'Center', '6ft9in', 1972, 18787, .503, 9.4, 1.5, .081, 2.3, 22.1, .754, 1.0, 'North Carolina', 1986);
+INSERT INTO players VALUES ('Tracy McGrady', 'San Antonio Spurs', 'Shooting Guard', '6ft8in', 1997, 18381, .435, 5.6, .9, .338, 4.4, 19.6, .746, 1.2, 'Mount Zion Christian Academy', 2013);
+INSERT INTO players VALUES ('Dwight Howard', 'LA Lakers', 'Center', '6ft10in', 2004, 19485, .587, 11.8, 1.8, .214, 1.3, 15.7, .567, .9, 'Southwest Atlanta Christian Academy', 'Present');
+INSERT INTO players VALUES ('Dave Cowens', 'Milkwaukee Bucks', 'Center', '6ft9in', 1970, 13516, .460, 13.6, 0.9, .071, 3.8, 17.6, .783, 1.1, 'Florida State', 1983);
+INSERT INTO players VALUES ('Earl Monroe', 'New York KNicks', 'Guard', '6ft3in', 1967, 17454, .464, 3.0, .3, NULL, 3.9, 18.8, .807, 1.0, 'Winston Salem State', 1980);
+INSERT INTO players VALUES ('James Worthy', 'LA Lakers', 'Small Forward', '6ft9in', 1982, 16320, .406, 2.3, .2, .288, 1.9, 10.2, .741, .6, 'North Carolina', 1994);
+INSERT INTO players VALUES ('Wes Unseld', 'Washington Bullets', 'Center', '6ft7in', 1968, 10624, .509, 14.0, .6, .50, 3.9, 10.8, .633, 1.1, 'Louisville', 1981);
+INSERT INTO players VALUES ('Dolph Schayes', 'Philidelphia 76ers', 'Power Forward', '6ft8in', 1948, 19249, .380, 12.1, NULL, NULL, 3.1, 18.5, .849, NULL, 'NYU', 1964);
+INSERT INTO players VALUES ('Dennis Rodman', 'Dallas Mavericks', 'Forward', '6ft7in', 1986, 6683, .521, 13.1, .6, .231, 1.8, 7.3, .584, .7, 'Southeastern Oklahoma State', 2000);
+INSERT INTO players VALUES ('Carmelo Anthony', 'LA Lakers', 'Forward', '6ft7in', 2003, 28289, .447, 6.2, .5, .355, 2.7, 22.5, .814, 1.0, 'Syracuse', 2022);
+INSERT INTO players VALUES ('Bill Walton', 'Boston Celtics', 'Center', '6ft11in', 1974, 6215, .521, 10.5, 2.2, NULL, 3.4, 13.3, .660, .8, 'UCLA', 1988);
+INSERT INTO players VALUES ('Chris Webber', 'Golden State Warriors', 'Power Forward', '6ft10in', 1993, 17182, .479, 9.8, 1.4, .299, 4.2, 20.7, .649, 1.4, 'Michigan', 2008);
+INSERT INTO players VALUES ('Billy Cunningham', 'Philidelphia 76ers', 'Forward', '6ft6in', 1965, 16310, .452, 10.4, .5, .263, 5.4, 21.2, .730, 1.8, 'North Carolina', 1976);
+INSERT INTO players VALUES ('Nate Archilbald', 'Milkwaukee Bucks', 'POint Guard', '6ft1in', 1970, 16481, .467, 2.3, 0.1, .224, 7.4, 18.8, .810, 1.1, 'UTEP', 1984);
+INSERT INTO players VALUES ('Damian Lillard', 'Portland Trail Blazers', 'Point Guard', '6ft2in', 2012, 17510, .437, 4.2, .3, .373, 6.6, 24.6, .893, 1.0, 'Weber State', 'Present');
+INSERT INTO players VALUES ('Alonzo Mourning', 'Miami Heat', 'Center', '6ft10in', 1992, 14311, .527, 8.5, 2.8, .247, 1.1, 17.1, .692, .5, 'Georgetown', 2008);
+INSERT INTO players VALUES ('Hal Greer', 'Philidelphia 76ers', 'Guard', '6ft2in', 1958, 21586, .452, 5.0, NULL, NULL, 4.0, 19.2, .801, NULL, 'Marshall', 1973);
+INSERT INTO players VALUES ('Alex English', 'Dallas Mavericks', 'Small Forward', '6ft8in', 1976, 25613, .507, 5.5, .7, .217, 3.6, 21.5, .832, .9, 'South Carolina', 1991);
+INSERT INTO players VALUES ('Jerry Lucas', 'New York Knicks', 'Power Forward', '6ft8in', 1962, 14053, .499, 15.6, 0.3, NULL, 3.3, 17.0, .499, 0.4, 'Ohio State', 1974);
+INSERT INTO players VALUES ('Pete Maravich', 'Boston Celtics', 'Shooting Guard', '6ft5in', 1970, 15948, .441, 4.2, .3, .667, 5.4, 24.2, .820, 1.4, 'LSU', 1980);
+INSERT INTO players VALUES ('Robert Parish', 'Chicago Bulls', 'Center', '7ft1in', 1976, 23334, .537, 9.1, 1.5, .000, 1.4, 14.5, .721, 0.8, 'Centenary', 1997);
+INSERT INTO players VALUES ('Lenny Wilkens', 'Portland Trail Blazers', 'Point Guard', '6ft1in', 1960, 17772, .432, 4.7, 0.2, NULL, 6.7, 16.5, .774, 1.3, 'Providence', 1975);
+SELECT * FROM players WHERE Draft_Year > 2000 ORDER BY Draft_Year;
+SELECT * FROM players WHERE Field_Goal_Percentage > 0.5 ORDER BY Field_Goal_Percentage ASC; 
+SELECT * FROM players WHERE Career_Points > 30000 ORDER BY Draft_Year ASC;
+SELECT MAX(Points_Per_Game) AS MostPoints FROM players;
+SELECT MIN(Points_Per_Game) AS LeastPoints FROM players;
+SELECT AVG(Free_Throw_Percentage) FROM players;
+SELECT AVG(Career_Points) FROM players;
+SELECT * FROM players WHERE Team = 'LA Lakers';
+SELECT * FROM players WHERE Pre_Draft_Team = 'Cincinnati';
+SELECT * FROM players WHERE Pre_Draft_Team = 'Ohio State'; 
+SELECT * FROM players WHERE Team IN ('Boston Celtics', 'San Antonio Spurs', 'Golden State Warriors') ORDER BY Draft_Year;
+SELECT * FROM players WHERE Career_Points > 25000 AND Field_Goal_Percentage > 0.45 ORDER BY Draft_Year; 
+
+
