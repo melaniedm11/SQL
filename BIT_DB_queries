@@ -28,3 +28,24 @@ FROM BIT_DB.FebSales Feb
 LEFT JOIN BIT_DB.customers cust
 ON FEB.orderid=cust.order_id
 WHERE Feb.Quantity>2;
+
+SELECT orderdate FROM BIT_DB.FebSales
+WHERE orderdate BETWEEN '02/13/19 00:00' AND '02/18/19 00:00';
+
+SELECT location FROM BIT_DB.FebSales 
+WHERE orderdate = '02/18/19 01:35';
+
+SELECT sum(quantity)
+FROM BIT_DB.FebSales
+WHERE orderdate LIKE '02/18/19%';
+
+SELECT DISTINCT product FROM BIT_DB.FebSales 
+WHERE product LIKE '%Batteries%';
+
+SELECT DISTINCT product, price FROM BIT_DB.FebSales
+WHERE price LIKE '%.99';
+
+SELECT Product, SUM(quantity) FROM BIT_DB.FebSales
+WHERE location LIKE '%los Angeles%'
+GROUP BY product;
+
